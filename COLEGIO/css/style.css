@@ -1,6 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
-
+  cursor: url(../images/cursor.png), auto;
   color: #48494a;
   background-image: url(../images/body-bg.jpg);
 }
