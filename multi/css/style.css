@@ -24,12 +24,12 @@ body{
     text-align: center;
     line-height: 100px;
 }
-.raw-mision{
+.raw-somos{
     width: 100%;
     text-align: center;
     padding: 60px 40px;
 }
-.raw-mision-p{
+.raw-somos-p{
     padding: 40px 0;
 }
 .nosotros-b{
@@ -58,10 +58,36 @@ body{
 .raw-exp-p{
     padding: 40px 0;
 }
+.mision-b{
+    width: 100%;
+    height: 100vh;
+    background: url(../imagenes/ms3.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top: calc(50vh - 50px);
+}
+.mision-b-h2{
+    background: rgba(0, 0, 0, 0.452);
+    color: white;
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    line-height: 100px;
+}
+.raw-mision{
+    width: 100%;
+    text-align: center;
+    padding: 60px 40px;
+}
+.raw-mision-p{
+    padding: 40px 0;
+}
 .contact-b{
     width: 100%;
     height: 100vh;
-    background: url(../imagenes/ms3.jpg);
+    background: url(../imagenes/ms4.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -84,6 +110,14 @@ body{
     width: 135px;
     height: auto;
 }
+.raw-contact{
+    width: 100%;
+    text-align: center;
+    padding: 60px 40px;
+}
+.raw-contact-img{
+    padding: 40px 0;
+}
 a:link{
     color:white;
 }
@@ -95,4 +129,24 @@ a:hover{
 }
 a:active{
     color:red;
+}
+.raw-contact-img-logo{
+    filter: grayscale(100%);
+    transition: all 3s;
+}
+.raw-contact-img-logo:hover{
+    filter: grayscale(0%); 
+}
+.raw-footer{
+    color: rgb(47, 0, 255);
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.raw-footer-p:hover{
+    color: red;
+    cursor: default;
 }
