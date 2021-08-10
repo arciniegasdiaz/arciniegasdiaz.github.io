@@ -1,6 +1,4 @@
-Thanks for downloading this template!
+Archivo de Subida
 
-Template Name: Imperial
-Template URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-theme/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Team Parrot
+Arciniegasdiaz
