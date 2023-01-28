@@ -2063,6 +2063,14 @@ input, select, textarea {
 				.icon.featured.alt2:after {
 					border-top-color: #827a7c;
 				}
+			
+			.icon.featured.alt34 {
+				background-color: #827a7c00;
+			}
+			
+				.icon.featured.alt34:after {
+					border-top-color: #827a7c00;
+				}
 
 /* Page Wrapper */
 
