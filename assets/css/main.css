@@ -177,10 +177,22 @@ input, select, textarea {
 
 	.slda {
 		font-family: 'Great Vibes', cursive;
+/*		background: #FFD700;
+ 		background: radial-gradient(ellipse farthest-side at top left, #FFD700 64%, #EABE3F 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent; */
 	}
 
 	.slda2 {
 		font-family: 'Tangerine', cursive;
+	}
+
+	.slda3 {
+		font-family: 'Playfair Display', serif;
+		background: #FFD700;
+		background: radial-gradient(ellipse farthest-side at top left, #FFD700 0%, #CF9F00 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
 	}
 
 /* Container */
