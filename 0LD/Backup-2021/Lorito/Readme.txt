@@ -1,1 +1,0 @@
-Powered by The Parrot Creative Team®
