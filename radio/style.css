@@ -32,22 +32,35 @@ body {
 	line-height: 1.5;
 }
 
-.marquee-container {
+/* .marquee-container {
 	overflow: hidden; /* Oculta el contenido que se desborda */
-	height: 30px; /* Altura de la marquesina */
-  }
+/*	height: 30px; /* Altura de la marquesina */
+/*  }
   
-  .marquee {
+/*  .marquee {
 	display: inline-block; /* Permite que la marquesina se muestre en línea */
-	white-space: nowrap; /* Evita que el texto se rompa en varias líneas */
-	animation: marquee 10s linear infinite; /* Define la animación de la marquesina */
-  }
+/*	white-space: nowrap; /* Evita que el texto se rompa en varias líneas */
+/*	animation: marquee 10s linear infinite; /* Define la animación de la marquesina */
+/*  }
   
   /* Define la animación de la marquesina */
-  @keyframes marquee {
+/*  @keyframes marquee {
 	0% { transform: translateX(100%); }
 	100% { transform: translateX(-100%); }
   }
 .marr {
 	color: #FFFFFF;
-}  
+}   */
+
+.sampleMarquee {
+	color: #ffffff;
+	background-color: #000000;
+	font-size: 34px;
+	line-height: 70px;
+	padding: 15px;
+	margin: 0px;
+	font-weight: bold;
+	font-style: italic;
+	text-align: justify;
+	font-variant: small-caps;
+}
