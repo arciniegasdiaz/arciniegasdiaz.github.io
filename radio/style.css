@@ -15,10 +15,10 @@ body {
 }
 
 .rectangle {
-	background: linear-gradient(to bottom, #000, #000080);
+	background: linear-gradient(to bottom, #0000003b, #0000803b);
 	padding: 50px;
 	text-align: center;
-	width: 255px;
+	width: 90%;
 	height: 255px;
 }
 
