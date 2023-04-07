@@ -64,3 +64,15 @@ body {
 	text-align: justify;
 	font-variant: small-caps;
 }
+
+header {
+	/* background-color: #fff; */
+	padding: 20px;
+	text-align: center;
+  }
+  
+  img {
+	max-width: 100%;
+	height: auto;
+  }
+  
