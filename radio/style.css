@@ -65,13 +65,18 @@ body {
 	font-variant: small-caps;
 }
 
-header {
-	/* background-color: #ffffff1e; */
+/* header {
+	background-color: #ffffff1e;
 	padding: 20px;
 	text-align: center;
-  }
+  } */
+
+.logo {
+	padding: 20px;
+	text-align: center;
+}
   
-  img {
+img {
 	max-width: 100%;
 	height: auto;
   }
