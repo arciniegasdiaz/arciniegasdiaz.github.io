@@ -1,7 +1,8 @@
 body {
 	/* background: linear-gradient(to bottom, #000080, #000000); */
 	overflow: hidden;
-	background-image: url('https://images.pexels.com/photos/690779/pexels-photo-690779.jpeg');
+	/* background-image: url('https://images.pexels.com/photos/690779/pexels-photo-690779.jpeg'); */
+	background-image: url('https://i.ibb.co/ZXQ8jrJ/equipo-sala-grabacion-musical-vacia.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;		
