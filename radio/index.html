@@ -5,7 +5,7 @@
 	<meta charset="utf-8" />
 	<meta name="description" content="Somos Sion Radio, de la Iglesia Sion Lugar de Adoración y Servicio a Dios de Barranquilla."/>
 	<meta property="og:image" content="https://i.ibb.co/vzGffcQ/SION.png">
-	<link rel="icon" type="image/x-icon" href="../radio/img/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="../radio//img/favicon.ico">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../radio/style.css">
 </head>
@@ -21,8 +21,12 @@
 				  <span class="marr">Somos Sion Lugar de Adoración y Estas escuchando Sion Radio</span>
 				</div> -->
 				<marquee class="sampleMarquee" direction="left" scrollamount="10" behavior="scroll">¡Somos Sion Lugar de Adoración y Servicio a Dios, y estás escuchando Sion Radio!</marquee>
-			  </div>			  
-			<iframe src="https://stream-054.zeno.fm/l47ghisyitsuv?zs=Sk67IiKaScmrIHp0VULmeA" width="90%" height="100" frameborder="0" scrolling="no" autoplay></iframe><a href="https://zeno.fm/" target="_blank" style="display: block; font-size: 0.9em; line-height: 10px;"></a>
+			  </div>
+			  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+			  <script src="https://cdn.mexiserver.com/html5players/4/js/player4-mexiserver.js"></script>
+			  <div id="mexiserver" style="width:100%; height:100px;"></div>
+			  <script> $("#mexiserver").lunaradio({ streamurl: "https://stream-054.zeno.fm/l47ghisyitsuv?zs=Sk67IiKaScmrIHp0VULmeA", radioname: "¡Sonando en Vivo, Sion Radio!", coverimage: "https://i.ibb.co/vzGffcQ/SION.png", onlycoverimage: true, userinterface: "small", backgroundcolor: "#0e1015", fontcolor: "#ffffff", hightlightcolor: "#e7433c", fontname: "Saira Condensed", googlefont: "Saira+Condensed:wght@100", fontratio: "0.4", scroll: "true", coverstyle: "animated", usevisualizer: "real", visualizertype: "5", streamtype: "shoutcast2", shoutcastpath: "/stream", shoutcastid: "1", metadatainterval: "5000", volume: "100", usestreamcorsproxy: "true", }); </script>
+			<!-- <iframe src="https://stream-054.zeno.fm/l47ghisyitsuv?zs=Sk67IiKaScmrIHp0VULmeA" width="90%" height="100" frameborder="0" scrolling="no" autoplay></iframe> -->
 		</div>
 		
 	</div>
