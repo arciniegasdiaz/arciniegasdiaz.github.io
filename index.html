@@ -27,6 +27,28 @@
 								<h1>SION LUGAR DE ADORACIÓN Y SERVICIO A DIOS</h1>
 								<h3>4 de Junio de 2023</h3>
 								<h2>Gran Inauguración de Nuestra Web</h2>
+								<div id="contador" style="background-color: rgba(255, 255, 255, 0); padding: 10px; display: inline-block;">
+									<span style="font-weight: bold; font-size: 16px; font-style: italic;">Contador de Visitas:<br></span>
+									<span id="contador-numero" style="font-weight: bold; font-size: 24px;"></span>
+								  </div>
+								  
+								  <script>
+									document.addEventListener("DOMContentLoaded", function() {
+									  var contadorElement = document.getElementById("contador-numero");
+									
+									  if (localStorage.getItem("visitas")) {
+										var contador = parseInt(localStorage.getItem("visitas"));
+									  } else {
+										var contador = 0;
+									  }
+									
+									  contador++;
+									  contadorElement.innerText = contador;
+									
+									  localStorage.setItem("visitas", contador.toString());
+									});
+								  </script>
+								  
 								<!-- <script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script><a data-type="countdown" data-id="4118599" class="tickcounter" style="display: block; width: 100%; position: relative; padding-bottom: 25%" title="Countdown" href="//www.tickcounter.com/">Countdown</a> -->
 							</div>
 						</div>
