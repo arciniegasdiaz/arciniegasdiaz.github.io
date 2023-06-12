@@ -1,0 +1,84 @@
+body {
+	/* background: linear-gradient(to bottom, #000080, #000000); */
+	overflow: hidden;
+	background-image: url('https://images.pexels.com/photos/690779/pexels-photo-690779.jpeg');
+	/* background-image: url('https://i.ibb.co/ZXQ8jrJ/equipo-sala-grabacion-musical-vacia.jpg'); */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.rectangle {
+	background: linear-gradient(to bottom, #0000003b, #0000803b);
+	padding: 50px;
+	text-align: center;
+	width: 90%;
+	height: 480px;
+}
+
+.rectangle h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+.rectangle p {
+	font-size: 24px;
+	line-height: 1.5;
+}
+
+/* .marquee-container {
+	overflow: hidden; /* Oculta el contenido que se desborda */
+/*	height: 30px; /* Altura de la marquesina */
+/*  }
+  
+/*  .marquee {
+	display: inline-block; /* Permite que la marquesina se muestre en línea */
+/*	white-space: nowrap; /* Evita que el texto se rompa en varias líneas */
+/*	animation: marquee 10s linear infinite; /* Define la animación de la marquesina */
+/*  }
+  
+  /* Define la animación de la marquesina */
+/*  @keyframes marquee {
+	0% { transform: translateX(100%); }
+	100% { transform: translateX(-100%); }
+  }
+.marr {
+	color: #FFFFFF;
+}   */
+
+.sampleMarquee {
+	color: #ffffff;
+	background-color: #0000003b;
+	font-size: 34px;
+	line-height: 70px;
+	padding: 15px;
+	margin: 0px;
+	font-weight: bold;
+	font-style: italic;
+	text-align: justify;
+	font-variant: small-caps;
+}
+
+/* header {
+	background-color: #ffffff1e;
+	padding: 20px;
+	text-align: center;
+  } */
+
+.logo {
+	padding: 20px;
+	text-align: center;
+}
+  
+img {
+	max-width: 100%;
+	height: auto;
+  }
+  
